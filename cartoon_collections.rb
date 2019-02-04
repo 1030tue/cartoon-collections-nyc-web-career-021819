@@ -17,7 +17,7 @@ def long_planeteer_calls(calls_short)
   # code an argument here
   # Your code here
   if calls_short.size < 4 
-    false
+    puts false
   end
   true
 end
