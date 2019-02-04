@@ -31,5 +31,5 @@ def find_the_cheese(food)
       puts food[i]
     end
   end
-  
+  nil
 end
