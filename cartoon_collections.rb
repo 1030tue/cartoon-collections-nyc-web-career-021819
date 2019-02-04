@@ -16,8 +16,8 @@ end
 def long_planeteer_calls(calls_short)
   # code an argument here
   # Your code here
-calls_short.any? do |word|
-  |word
+calls_short.any? do |w|
+  w.length >=4
 end
 
 def find_the_cheese# code an argument here
