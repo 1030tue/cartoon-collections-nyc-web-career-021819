@@ -28,10 +28,8 @@ def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.each.with_index do |ch, i|
     if cheese_types[i] == food[i]
-      puts fod
-  
-  
-  
-  
+      puts food[i]
+    end
+  end
   
 end
