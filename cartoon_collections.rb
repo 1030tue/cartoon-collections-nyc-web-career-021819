@@ -16,7 +16,10 @@ end
 def long_planeteer_calls(calls_short)
   # code an argument here
   # Your code here
-  
+  if calls_short >= 4 
+    true
+  end
+  false
 end
 
 def find_the_cheese# code an argument here
