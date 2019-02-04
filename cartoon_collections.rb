@@ -26,9 +26,6 @@ def find_the_cheese(food)
   # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each.with_index do |ch, i|
-    if cheese_types[i] == food[i]
-      puts food[i]
     end
   end
   nil
